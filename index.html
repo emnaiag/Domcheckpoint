@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cart-container">
+      <!-- header -->
+      <div class="header">
+        <h3 class="heading">Shopping Cart</h3>
+        <h5 class="action" id="remove">Remove all</h5>
+      </div>
+      <!-- fin header -->
+      <!-- Contenu de la carte -->
+      <!-- 1er produit -->
+      <div class="prod">
+        <div class="delete">
+          <img
+            src="./assets/delete.png"
+            class="croix"
+            alt="croix"
+            width="20px"
+            height="20px"
+            name="image1"
+          />
+        </div>
+        <div class="like">
+          <img
+            src="./assets/coeur-rouge.jpg"
+            class="coeur"
+            alt="coeur"
+            width="27px"
+            height="30px"
+          />
+        </div>
+        <div class="imageprod">
+          <img src="./assets/pc-dell.jpg" alt="pcdell" width="120" />
+        </div>
+        <div class="description">
+          <p>
+            Pc portable Dell Inspiron<br />
+            3500-G3 I7
+          </p>
+        </div>
+        <div class="counter"></div>
+        <button class="min-btn">-</button>
+        <div class="count" name="first">1</div>
+        <button class="plus-btn" name="first">+</button>
+        <div class="prices">2949.456</div>
+      </div>
+      <!-- deuxieme produit -->
+      <div class="prod">
+        <div class="delete">
+          <img
+            src="./assets/delete.png"
+            class="croix"
+            alt="croix"
+            width="20px"
+            height="20px"
+            name="image2"
+          />
+        </div>
+        <div class="like">
+          <img
+            src="./assets/coeur-rouge.jpg"
+            class="coeur"
+            alt="coeur"
+            width="27px"
+            height="30px"
+          />
+        </div>
+        <div class="imageprod">
+          <img
+            src="./assets/imprimante canon.jpg"
+            alt="iprimante-canon"
+            width="120"
+          />
+        </div>
+        <div class="description">
+          <p>imprimante canon pixma MG 2540 <br />jet d'encre 3en1</p>
+        </div>
+        <div class="counter"></div>
+        <button class="min-btn">-</button>
+        <div class="count" name="second">1</div>
+        <button class="plus-btn" name="second">+</button>
+        <div class="prices">99.750</div>
+      </div>
+      <!-- troisième produit -->
+      <div class="prod">
+        <div class="delete">
+          <img
+            src="./assets/delete.png"
+            class="croix"
+            alt="croix"
+            width="20px"
+            height="20px"
+            name="image3"
+          />
+        </div>
+        <div class="like">
+          <img
+            src="./assets/coeur-rouge.jpg"
+            class="coeur"
+            alt="coeur"
+            width="27px"
+            height="30px"
+          />
+        </div>
+        <div class="imageprod">
+          <img
+            src="assets/webcam-sandberg-streamer-pro-usb.jpg"
+            alt="webcam-sandberg"
+            width="120"
+          />
+        </div>
+        <div class="description">
+          <p>
+            webcam Sandberg <br />
+            Streamer PRO USB
+          </p>
+        </div>
+        <div class="counter"></div>
+        <button class="min-btn">-</button>
+        <div class="count" id="qte" name="third">1</div>
+        <button class="plus-btn" id="plusbt" name="third">+</button>
+        <div class="prices">227.350</div>
+      </div>
+      <!-- checkout -->
+      <hr />
+      <div class="checkout">
+        <div class="tot">
+          <div>
+            <p>Total</p>
+            <span id="total-item">3</span> items
+          </div>
+          <div id="montant">3276.556</div>
+        </div>
+        <button class="btn-check">checkout</button>
+      </div>
+
+      <!-- fin du contenu de la carte -->
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

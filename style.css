@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #a5b1b4, #87b7c4);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-container {
+  width: 70%;
+  height: 95%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 25px 40px;
+}
+/* header */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading {
+  color: royalblue;
+  margin-right: 600px;
+}
+.action {
+  color: red;
+  font-size: 15px;
+}
+/* fin header */
+.croix {
+  opacity: 0.6;
+}
+.croix:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.coeur {
+  opacity: 0.6;
+}
+.coeur:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.description {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* width: 40%; */
+  width: 30%;
+}
+.prod {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.prices {
+  width: 10%;
+}
+button {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-size: 13px;
+}
+hr {
+  width: 60%;
+  float: right;
+  margin-right: 5%;
+  margin-bottom: 5px;
+}
+.checkout {
+  margin-right: 5%;
+  width: 25%;
+  margin-left: 70%;
+  margin-top: 5px;
+}
+.tot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+}
+.btn-check {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 5px;
+  background-color: rgb(42, 114, 209);
+}
+
+
+  
